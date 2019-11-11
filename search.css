@@ -33,7 +33,7 @@ img  {
     background-color: var(--background-color);
     color: black;
     padding: 16px;
-    font-size: 16px;
+    font-size: 14px;
     border: none;
 }
 
@@ -69,11 +69,13 @@ img  {
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
     display: block;
+    opacity: (1);
 }
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
     background-color: #C9B6C1;
+
 }
 
 /* Style the search box inside the navigation bar */
@@ -146,7 +148,8 @@ hr {
 
 /* Add a blue text color to links */
 a {
-  color: dodgerblue;
+  color: #b4beae;
+    text-decoration: none;
 }
 
 
