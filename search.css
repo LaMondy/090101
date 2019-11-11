@@ -11,8 +11,6 @@ img  {
 .nav-header {
     display: flex;
     flex-direction: row;
-
-
 }
 
 .nav-left {
