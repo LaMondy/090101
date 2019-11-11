@@ -3,12 +3,15 @@
 }
 
 .husetlogo {
+    object-position: center;
     background-color: #b4beae;
+
 }
 img  {
     height: auto;
     width: 100px;
 }
+
 
 .nav-header {
     display: flex;
@@ -89,6 +92,7 @@ h2, p {
 
 .main-body {
     display: flex;
+    flex-direction: row;
     text-align: center;
 }
 
