@@ -15,10 +15,6 @@ img  {
     flex-direction: row;
 }
 
-.nav-left {
-    text-align: center;
-    color: black;
-}
 
 .nav-right {
     border-radius: 1rem;
@@ -85,6 +81,15 @@ img  {
     margin-top: 8px;
     margin-right: 16px;
     font-size: 17px;
+}
+
+h2, p {
+    font: "avenir next";
+}
+
+.main-body {
+    display: flex;
+    text-align: center;
 }
 
 /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
