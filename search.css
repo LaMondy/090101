@@ -5,27 +5,56 @@
 .husetlogo {
     object-position: center;
     background-color: #b4beae;
-
-}
-img  {
-    height: auto;
-    width: 100px;
+    height: 20rem;
+    width: auto;
+    margin: 1rem;
 }
 
+.bastard, .home {
+    background-color: #C9B6C1;
+    color: black;
+    padding: 1rem;
+}
+
+.husetmain {
+    height: 50rem;
+    width: auto;
+    margin: 1rem;
+}
+
+
+
+.twitter,
+.fb,
+.instagram {
+    background-color: #b4beae;
+    height: 2rem;
+    width: auto;
+    margin-right: 10px;
+}
 
 .nav-header {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
 }
 
 
 .nav-right {
-    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 19rem;
+
+}
+
+.nav-left {
+    margin-top: 18rem;
 }
 
 .navbar {
     text-align: center;
     border-radius: 10rem;
+    margin-top: 2rem;
 }
 
 /* Dropdown Button */
@@ -88,10 +117,7 @@ img  {
     font-size: 17px;
 }
 
-h1, h2, h3, p {
-    font: "avenir next";
-    text-align: center;
-}
+
 
 .main-body {
     display: flex;
@@ -99,62 +125,66 @@ h1, h2, h3, p {
     text-align: center;
 }
 
-* {box-sizing: border-box}
+* {
+    box-sizing: border-box
+}
 
 /* Add padding to containers */
 .container {
-  padding: 16px;
+    padding: 16px;
     margin-right: 150px;
     margin-left: 150px;
 
 }
 
 /* Full-width input fields */
-input[type=text], input[type=password] {
-  width: 100%;
-  padding: 15px;
-  margin: 5px 0 22px 0;
-  display: inline-block;
-  border: none;
-  background: #f1f1f1;
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
 }
 
-input[type=text]:focus, input[type=password]:focus {
-  background-color: #ddd;
-  outline: none;
+input[type=text]:focus,
+input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
 }
 
 /* Overwrite default styles of hr */
 hr {
-  border: 1px solid #f1f1f1;
-  margin-bottom: 25px;
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
 }
 
 /* Set a style for the submit/register button */
 .registerbtn {
-  background-color: #b4beae;
-  color: white;
-  padding: 16px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  width: 100%;
-  opacity: 0.9;
+    background-color: #b4beae;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
 }
 
 .registerbtn:hover {
-  opacity:1;
+    opacity: 1;
 }
 
 /* Add a blue text color to links */
 a {
-  color: #b4beae;
+    color: #b4beae;
     text-decoration: none;
 }
 
 
 /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1200px) {
 
     .topnav a,
     .topnav input[type=text] {
