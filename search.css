@@ -2,6 +2,11 @@
     --background-color: #C9B6C1;
 }
 
+header {
+    margin-bottom: 3rem;
+    object-position: center;
+}
+
 h2,
 h3,
 p,
@@ -18,11 +23,10 @@ a {
     margin: 1rem;
 }
 
-.bastard,
 .home {
-    background-color: #C9B6C1;
-    color: black;
-    padding: .8rem;
+    color: #C9B6C1;
+    padding: 14px;
+    font-weight: 600;
 }
 
 .husetmain {
@@ -37,14 +41,17 @@ a {
 .fb,
 .instagram {
     background-color: #b4beae;
-    height: 2rem;
+    height: 3rem;
     width: auto;
     margin-right: 10px;
+    padding: 10px;
+     border-radius: 20px;
 }
 
 .nav-header {
     display: flex;
     justify-content: center;
+    align-items: flex-end;
 }
 
 
@@ -52,15 +59,15 @@ a {
     display: flex;
     justify-content: center;
     flex-direction: row;
-    margin-top: 19rem;
-
+    margin-bottom: 10px;
 }
 
 .nav-left {
-    margin-top: 18rem;
+    margin-bottom: -6px;
 }
 
 .navbar {
+    object-position: center;
     text-align: center;
     border-radius: 10rem;
     margin-top: 2rem;
@@ -71,12 +78,8 @@ a {
     background-color: var(--background-color);
     color: black;
     padding: 16px;
-    font-size: 14px;
+    font-size: 1rem;
     border: none;
-}
-
-.dropbtn:hover {
-    background-color: aqua;
 }
 
 /* The container <div> - needed to position the dropdown content */
@@ -127,6 +130,7 @@ a {
     margin-top: 8px;
     margin-right: 16px;
     font-size: 17px;
+    border-radius: 10px;
 }
 
 
@@ -140,7 +144,8 @@ a {
     display: flex;
     flex-direction: row;
     text-align: center;
-    margin: 4rem
+    margin: 4rem;
+    justify-content:flex-end;
 }
 
 * {
@@ -170,6 +175,7 @@ input[type=password] {
     font-family: "avenir next";
     font-size: 1rem;
     color: black;
+    border-radius: 20px;
 }
 
 input[type=text]:focus,
