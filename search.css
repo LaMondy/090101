@@ -222,11 +222,65 @@ a {
     text-decoration: none;
 }
 
+/*data styling*/
+
+img {
+    height: auto;
+    width: auto;
+}
+
+article {
+    background-color: whitesmoke;
+    color: var(--grey);
+    background-image: url(assets/extras/wood.jpeg);
+    border-radius: .5rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border: none;
+    margin: 1rem;
+    position: relative;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.boxInfo1, .boxInfo2, .boxInfo3 {
+    background-color: white;
+    color: var(--grey);
+    padding: 1rem;
+    margin: .2rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: .5rem;
+}
+
+.ticketBox {
+     background-color: #b4beae;
+    color: black;
+    padding: 1rem;
+    margin: .2rem;
+    font-size: 1rem;
+    border: none;
+    margin-top: 1rem;
+}
+
+.ticketBox:hover {
+    background-color:#C9B6C1;
+}
+
 
 /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 767px){
 
-    .topnav a,
+}
+
+@media screen and (min-width: 768px) and max-width: 1023px){
+       .topnav a,
     .topnav input[type=text] {
         float: none;
         display: block;
@@ -239,4 +293,13 @@ a {
     .topnav input[type=text] {
         border: 1px solid #ccc;
     }
+
+    main{
+
+    }
+
+}
+@media screen and (min-width: 1024px) {
+
+
 }
