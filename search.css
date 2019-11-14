@@ -269,8 +269,8 @@ img {
     margin-top: 1rem;
 }
 
-.ticketBox:hover {
-    background-color:#C9B6C1;
+.dropbtn:hover {
+    background-color:blue;
 }
 
 
