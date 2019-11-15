@@ -13,6 +13,7 @@ p,
 a {
     font-family: "avenir next";
     font-size: 1rem;
+    color: black;
 }
 
 .husetlogo {
@@ -45,10 +46,11 @@ a {
     width: auto;
     margin-right: 10px;
     padding: 10px;
-     border-radius: 20px;
+    border-radius: 20px;
 }
 
 .nav-header {
+    color: black;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -63,7 +65,15 @@ a {
 }
 
 .nav-left {
-    margin-bottom: -6px;
+    background-color: #b4beae;
+    color: black;
+    height: 3rem;
+    width: auto;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 1rem;
+    text-align: center;
 }
 
 .navbar {
@@ -135,7 +145,7 @@ a {
 
 
 .history-body,
-.volunteering-body {
+.volunteering-body, .contact-body {
     text-align: center;
     margin: 4rem
 }
@@ -145,7 +155,7 @@ a {
     flex-direction: row;
     text-align: center;
     margin: 4rem;
-    justify-content:flex-end;
+    justify-content: flex-end;
 }
 
 * {
@@ -157,7 +167,7 @@ a {
     padding: 16px;
     margin-right: 150px;
     margin-left: 150px;
-     font-family: "avenir next";
+    font-family: "avenir next";
     font-size: 1rem;
     color: black;
 
@@ -185,7 +195,7 @@ input[type=password]:focus {
 }
 
 lable {
-     font-family: "avenir next";
+    font-family: "avenir next";
     font-size: 1rem;
     color: black;
 }
@@ -218,8 +228,9 @@ hr {
 
 /* Add a blue text color to links */
 a {
-    color: #b4beae;
+    color: black;
     text-decoration: none;
+    text-align: center;
 }
 
 /*data styling*/
@@ -249,7 +260,9 @@ img {
     height: auto;
 }
 
-.boxInfo1, .boxInfo2, .boxInfo3 {
+.boxInfo1,
+.boxInfo2,
+.boxInfo3 {
     background-color: white;
     color: var(--grey);
     padding: 1rem;
@@ -260,7 +273,7 @@ img {
 }
 
 .ticketBox {
-     background-color: #b4beae;
+    background-color: #b4beae;
     color: black;
     padding: 1rem;
     margin: .2rem;
@@ -270,17 +283,16 @@ img {
 }
 
 .dropbtn:hover {
-    background-color:blue;
+    background-color: blue;
 }
 
 
 /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
-@media screen and (max-width: 767px){
 
-}
 
-@media screen and (min-width: 768px) and max-width: 1023px){
-       .topnav a,
+@media screen and (min-width: 768px) and max-width: 1023px) {
+
+    .topnav a,
     .topnav input[type=text] {
         float: none;
         display: block;
@@ -294,12 +306,8 @@ img {
         border: 1px solid #ccc;
     }
 
-    main{
-
-    }
+    main {}
 
 }
-@media screen and (min-width: 1024px) {
 
-
-}
+@media screen and (min-width: 1024px) {}

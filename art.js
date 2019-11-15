@@ -50,24 +50,3 @@ function showPost(post) {
     document.querySelector("#exhibition").appendChild(postCopy)
 }
 
-
-
-
-
-
-
-
-
-/*function getSearchData() {
-    const urlParams = new URLSearchParams(window.location.search);
-    const search = urlParams.get("search");
-    //console.log("getSearchData")
-
-    fetch("http://iesdesigner.eu/wordpress/wp-json/wp/v2/exhibition?_embed" + search)
-        .then(res => res.json())
-        .then(handleData)
-
-     fetch("http://iesdesigner.eu/wordpress/wp-json/wp/v2/music?_embed&search=" + search)
-        .then(res => res.json())
-        .then(handleData)
-}*/
