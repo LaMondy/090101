@@ -77,10 +77,11 @@ a {
 }
 
 .navbar {
-    object-position: center;
     text-align: center;
     border-radius: 10rem;
     margin-top: 2rem;
+    margin-left: 10rem;
+    margin-right: 15rem;
 }
 
 /* Dropdown Button */
@@ -290,7 +291,7 @@ img {
 /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
 
 
-@media screen and (min-width: 768px) and max-width: 1023px) {
+@media screen and (min-width: 375px){
 
     .topnav a,
     .topnav input[type=text] {
@@ -306,8 +307,6 @@ img {
         border: 1px solid #ccc;
     }
 
-    main {}
 
 }
 
-@media screen and (min-width: 1024px) {}
