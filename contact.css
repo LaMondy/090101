@@ -296,7 +296,7 @@ img {
     .nav-header {
         display: flex;
         flex-direction: column;
-        text-align: justify;
+        align-items: center;
 
     }
   body {
@@ -308,31 +308,37 @@ img {
         margin-top: 5px;
         display: flex;
         flex-direction: column;
+
+    }
+
+    a, h3, p, h1, .registerbtn, .ticketBox, .boxInfo1 {
         font-size: 10px;
     }
 
+    .dropbtn {
+        font-size: 10px;
+    }
 
+    .main-body {
+         display: flex;
+        flex-direction: column;
+    }
+
+    form{
+        display: none;
+    }
+
+    article {
+        width: 9rem;
+    }
 }
 
-@media only screen and (min-width: 650px) {
+@media only screen and (min-width: 600px) {
 
-    .nav-header {
-        display: flex;
-        flex-direction: column;
-        text-align: justify;
 
-    }
   body {
-    background-color: azure;
+    background-color: darkseagreen;
   }
-
-
-    .dropdown{
-        margin-top: 5px;
-        display: flex;
-        flex-direction: column;
-        font-size: 10px;
-    }
 
 
 }
